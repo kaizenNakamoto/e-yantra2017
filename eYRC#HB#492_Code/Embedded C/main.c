@@ -2422,6 +2422,15 @@ void flood_fillz(int start,int end)
 	setb();
 }
 
+
+void setRep(){
+volatile int aster;
+	if(aster)
+		get_bot();
+		set_bot();
+	for(int i=0;i<100;i++)
+		hold();
+}
 /*
 
 * Function Name:     flood
